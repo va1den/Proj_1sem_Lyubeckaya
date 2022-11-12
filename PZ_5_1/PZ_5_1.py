@@ -7,13 +7,13 @@ def countFish(b):
         a += 1
     return a
 
-void = input("Введите число: ")
+void = input("Введите числа: ")
 
 while type(void) != int:
     try:
         void = int(void)
     except ValueError:
             print("Неправильно ввели!")
-            void = input("Введите целое число: ")
+            void = input("Введите числа: ")
 
 print('Число символов: ', countFish(void))
