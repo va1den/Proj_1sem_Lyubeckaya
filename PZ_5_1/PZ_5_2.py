@@ -7,7 +7,7 @@ while type(A) != int:
     try:
         A = int(A)
     except ValueError:
-        print("Введено неправильно")
+        print("Введено неправильно ")
         A = input("Введите целое число: ")
 B = input("Введите целое число: ")
 while type(B) != int:
